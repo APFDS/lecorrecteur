@@ -1,0 +1,401 @@
+
+ /*<!--header
+    auteur :Ing Samuel JEAN-->*/
+
+
+*{
+	margin: 0;
+	padding: 0; 
+}
+
+body{
+	background-color: #C1BEBA;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+
+}
+
+
+nav{
+	position: relative;
+	display: flex;
+
+}
+
+
+.logo{
+	background-image: url(../72ppi/logo_avec_fond.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center; 
+	
+	width: 16.67%;
+
+}
+
+.logo:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.menu_Icon{
+	position: relative;
+	width: 100%;
+
+}
+
+.icon_media{
+	position: absolute;
+	left: 10%;
+	top: 10px;
+	float: left;
+
+}
+
+.icon_connnection{
+	position: absolute;
+	right: 10%;
+	top: 10px;
+	float: right;
+
+}
+
+.icon_connnection span{
+	margin: 10px;
+	color: #2d3436;
+}
+
+.menu{
+	position: absolute;
+	bottom: 0;
+}
+
+.menu ul{
+	position: relative;
+	width: auto;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.menu ul li{
+	display: flex;
+	}
+
+
+.menu ul li a{
+	text-decoration: none;
+	padding-right: 3rem;
+	padding-left: 3rem;
+
+	text-align: center;
+	border-bottom: 2px solid #3498db;
+	margin: 0;
+	color: #2d3436;
+	height: 40px;
+
+
+	
+
+}
+
+.menu ul li a:hover{
+	border-color: #f9d71c;
+
+}
+
+
+.col{
+
+	color: white;
+}
+
+
+
+span.icon{
+	color: black;
+	margin: 10px;
+	font-size: 1em;
+}
+
+img{
+
+
+}
+
+/*<!--Fin header-->
+
+    <!--Premiere partie-->*/
+
+.container{
+    width: 100%;
+}  
+
+.info-contenair{
+    top:0;
+    width: 100%;
+}
+
+.journal-date{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1.5rem 60rem 1.5rem 4rem;
+    font-size: 0.8rem;
+}
+
+.journal-bottom{
+     padding-bottom: 4rem;
+}
+
+.info-projet{
+    width: 100%;
+    background: #fff;
+    
+}
+
+.bouton{
+    padding: 3rem 67rem 3rem 0.4rem;
+}
+
+/* bouton lire*/
+.bouton-lire{
+ background: #3498db;
+ color: black;
+ padding: 0.8rem 2rem 0.8rem 2rem;
+ text-decoration: none;
+ text-transform: uppercase;
+ text-align: center;
+ font-size: 0.8rem;
+ border-top-right-radius: 3rem;
+ border-top-left-radius: 3rem;
+ border-bottom-right-radius: 3rem;
+ border-bottom-left-radius: 3rem;
+ 
+}
+
+.bouton-jaune{
+	margin-top: 3.5rem;
+	margin-left: 1.5rem;
+	background:yellow;
+}
+
+.bouton-reduit{
+	padding: 0.4rem 1rem 0.4rem 1rem;
+	visibility: visible;
+}
+
+.lettre-date{
+	text-transform: uppercase;
+}
+.info{
+    margin: 1rem 48rem 1.5rem 4rem;
+}
+
+.paragraphe{
+	
+    margin-bottom: 5rem;
+    font-size: 1.2rem;
+}
+.redacteur{
+    text-decoration: none;
+    color: black;
+    margin-top: 1.5rem;
+
+}
+
+.bar-horizontal{
+    background: black;
+    padding: 2px;
+}
+
+.info-mois{
+	margin-left: 4rem;
+	margin-right: 4rem;
+	padding-bottom: 2.2rem;
+	padding-top: 0.8rem;
+}
+
+/*Partie 2*/
+.article-contenair{
+   display: flex;
+   justify-content: space-between;
+}
+.image-info{
+	background:#000;
+	padding: 3rem;
+}
+
+.article-info{
+	background:#fff;
+	margin-right: 1.4rem;
+}
+
+.partie-article{
+	margin-left: 1.5rem;
+	margin-right: 2rem;
+}
+
+.paragraphe-info{
+	font-size: 0.9rem;
+	visibility: visible;
+}
+.titre-article{
+	font-size: 1rem;
+	padding-top: 1rem;
+	text-transform: uppercase;
+}
+
+.journal-article{
+	 list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.8rem;
+	margin: 2rem 2rem 2rem 2rem;
+}  
+
+/*Publicite*/
+
+.publicite{
+	background:turquoise;
+	padding:9rem 6.5rem 9rem 6.5rem ;
+	margin-right: 1.4rem;
+}
+.pub{
+	text-align: center;
+}
+
+
+.grand-evenement{
+	display: flex;
+	justify-content: stretch;
+}
+
+.image-evenement{
+	padding-right: 27rem;
+	background: #000;
+}
+
+.grand-evenement{
+	display: flex;
+	justify-content: stretch;
+	height: 48vh;
+}
+
+.bouton-plus-article{
+	margin-left: 45%;
+	margin-bottom: 2rem;
+
+}
+
+.bouton-plus{
+	color: #fff;
+}
+
+.article-evenement{
+	width: 18rem;
+	margin-left: 1.5rem;
+}
+
+.bouton-evenement{
+	margin-top: 3.5rem;
+	margin-left: 1.5rem;
+}
+
+/*page rubrique*/
+.bar-reduit{
+	width: 65%;
+}
+
+.rubrique-contenair{
+	width: 60%;
+	left: 0;
+	margin-bottom: 2.3rem;
+}
+
+.info-rubrique{
+	margin-left: 4rem;
+	background: #fff;
+	flex-direction: column;
+	justify-content: stretch;
+}
+
+.rubrique-science{
+	background: #3498db;
+}
+
+.rubrique-personnalite{
+	background: rgb(145, 42, 145);
+}
+
+.rubrique-amis{
+	background: rgb(65, 8, 65);
+}
+
+.rubrique-enigme{
+	background: rgb(184, 54, 31);
+}
+
+.rubrique-chronique{
+	background: yellow;
+}
+
+.rubrique-editorial{
+	background: #2d3436;
+}
+
+.rubrique-bas21{
+	background: rgb(248, 3, 3);
+}
+
+.rubrique-lettre{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 1.7rem;
+	padding-left: 2rem;
+	padding-top:0.7rem;
+	padding-bottom: 0.7rem;
+}
+
+.rubrique-article{
+	display: flex;
+	justify-content: stretch;
+}
+
+.rubrique-image{
+	background: black;
+	width: 100rem;
+}
+
+.rubrique-info{
+	padding: 1.5rem;
+}
+
+.rubrique-lettre-titre{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1rem;
+	padding-bottom: 1rem;
+}
+
+.voir-article{
+	margin-top: 1.5rem;
+	margin-left: 2rem;
+}
+
+.voir-lettre{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 1,8rem;
+	background: black;
+	padding: 0.8rem 2rem 0.8rem 2rem;
+	border-top-right-radius: 3rem;
+	border-top-left-radius: 3rem;
+	border-bottom-right-radius: 3rem;
+	border-bottom-left-radius: 3rem;
+}
