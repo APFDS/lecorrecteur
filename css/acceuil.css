@@ -393,9 +393,35 @@ img{
 	color: #fff;
 	font-size: 1,8rem;
 	background: black;
+	list-style: none;
+	text-decoration: none;
 	padding: 0.8rem 2rem 0.8rem 2rem;
 	border-top-right-radius: 3rem;
 	border-top-left-radius: 3rem;
 	border-bottom-right-radius: 3rem;
 	border-bottom-left-radius: 3rem;
+}
+
+/*---- Apropos-----*/
+
+.apropos-contenair{
+	width: 55%;
+	left: 0;
+	margin-bottom: 2.3rem;
+}
+
+.info-apropos{
+	margin-left: 4rem;
+	margin-bottom: 2rem;
+}
+
+.apropos-lettre{
+	margin-bottom: 0.8rem;
+}
+
+.bouton-apropos{
+	margin:2rem 4rem 1rem 15rem;
+}
+.apropos-left{
+	width: 60%;
 }
