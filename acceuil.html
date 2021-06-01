@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>page_acceuil</title>
-
+<link rel="stylesheet" href="./fontawesome-free-5.10.1-web/css/all.min.css">
 
     <link rel="stylesheet" href="css/acceuil.css">
     
@@ -38,7 +38,7 @@
                 </div>
     
     
-                <div class="menu">
+                <div id="hero" class="menu">
                     <ul>
                         <li><a href="acceuil.html">ACCUEIL</a></li>
                         <li><a href="#">ARTICLES</a></li>
@@ -61,7 +61,7 @@
     Auteur : Pierre Chrislin DORIVAL Ing.Normalien-->
 
 
-    <nav class="contenair">
+    <span class="contenair">
         <div class="info-contenair">
             <ul class="journal-date">
                 <li>Journal des etudiants</li>
@@ -69,7 +69,7 @@
                 <li>8 Mars 2021</li>
             </ul>
         </div>
-    </nav>
+    </span>
     <section class="info-projet">
         
         <div class="info">
@@ -89,12 +89,12 @@
         </ul>
     </section>
 
-    <nav class="contenair">
+    <span class="contenair">
         <div class="info-contenair  info-mois">
            <h2 class="lettre-date">Mars 2021</h2>
            <div class="bar-horizontal"></div>
         </div>
-    </nav>
+    </span>
 
     <!--Partie 2-->
    <div class="container">
@@ -212,12 +212,12 @@
    </div>
    <!--Partie 3-->
 
-    <nav class="contenair">
+    <span class="contenair">
         <div class="info-contenair  info-mois">
             <h2 class="lettre-date">Janvier 2021</h2>
             <div class="bar-horizontal"></div>
         </div>
-    </nav>
+    </span>
 
     <div class="contenair">
         <div class="article-contenair info-mois">
@@ -273,9 +273,9 @@
                <div class="grand-evenement">
                     <div class="image-evenement"></div>
                     <div class="article-evenement">
-                        <nav class="bouton-article">
+                        <span class="bouton-article">
                             <a href="#lire" class="bouton-lire bouton-reduit bouton-jaune">lire</a>
-                        </nav>
+                        </span>
                         <h2 class="titre-article">Quand on passe la souris sur l'article</h2>
                         <p class="paragraphe-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia veniam,
                             hic iusto officiis laboriosam quidem neque deleniti quae? Dicta, id magnam.
@@ -315,12 +315,12 @@
             </article>
         </div>
     </div>
-<nav class="contenair">
+<span class="contenair">
     <div class="info-contenair  info-mois">
         <h2 class="lettre-date">Les plus anciens</h2>
         <div class="bar-horizontal"></div>
     </div>
-</nav>
+</span>
 
 <div class="contenair">
     <div class="article-contenair info-mois">
@@ -346,9 +346,9 @@
             </article>
             <article class="article-info">
                 <div class="image-info">
-                    <nav class="bouton-aricle">
+                    <span class="bouton-aricle">
                         <a href="#lire" class="bouton-lire bouton-reduit">lire</a>
-                    </nav>
+                    </span>
                 </div>
                 <div class="partie-article">
                     <h2 class="titre-article">Quand on passe la souris sur l'article</h2>
@@ -367,9 +367,9 @@
 
             <article class="article-info">
                 <div class="image-info">
-                    <nav class="bouton-aricle">
+                    <span class="bouton-aricle">
                         <a href="#lire" class="bouton-lire bouton-reduit">lire</a>
-                    </nav>
+                    </span>
                 </div>
                 <div class="partie-article">
                     <h2 class="titre-article">Quand on passe la souris sur l'article</h2>
@@ -392,9 +392,9 @@
             <div class="grand-evenement">
                 <div class="image-evenement"></div>
                 <div class="article-evenement">
-                    <nav class="bouton-article">
+                    <span class="bouton-article">
                         <a href="#lire" class="bouton-lire bouton-reduit bouton-evenement">lire</a>
-                    </nav>
+                    </span>
                     <h2 class="titre-article">Quand on passe la souris sur l'article</h2>
                     <p class="paragraphe-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia veniam,
                         hic iusto officiis laboriosam quidem neque deleniti quae? Dicta, id magnam.
@@ -419,10 +419,54 @@
 
 </div>
 
-<nav class="bouton-plus-article">
+<span class="bouton-plus-article">
     <a href="#lire" class="bouton-lire bouton-plus">plus d'article</a>
-</nav>
+</span>
 
+
+<!--footer-->
+
+<footer>
+    <div class="contenair">
+        <div class="back-to-top">
+            <a href="#hero"><i class="fas fa-chevron-up"></i></a>
+        </div>
+        <div class="footer-content">
+            <div class="footer-journal">
+                <h4 class="footer-titre">LE CORRECTEUR</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione itaque, 
+                    provident numquam obcaecati dolorum quibusdam accusantium possimus quaerat molestias 
+                    dolores sint, sed quisquam ab, rem quo at doloremque quam. Eius?</p>
+
+                    <span class="bouton-participe">
+                        <a href="#lire" class="bouton-lire bouton-plus">Je participe</a>
+                    </span>
+            </div>
+            <div class="footer-journal">
+                <h4 class="footer-titre">LE CORRECTEUR</h4>
+                <ul >
+                    <li class="nav-aide">
+                       <a href="#"  class="aide">Support</a> 
+                    </li>
+                    <li class="nav-aide">
+                        <a href="#" class="aide">Terme et condition</a>
+                    </li>
+                    <li class="nav-aide">
+                        <a href="#" class="aide">Communaute</a>
+                    </li>
+                    <li class="nav-aide">
+                    <a href="#" class="aide"> Apropos de APFDS</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-plus">
+                <h4 class="footer-right">LE CORRECTEUR</h4>
+                <h4 class="footer-right">Logo vectoriel</h4>
+            </div>
+        </div>
+
+    </div>
+</footer>
     
 </body>
 </html>

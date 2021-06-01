@@ -129,6 +129,9 @@ img{
 
 .container{
     width: 100%;
+	max-width: 122.5rem;
+    margin: 0 auto;
+    padding: 0 2.4rem ;
 }  
 
 .info-contenair{
@@ -190,6 +193,7 @@ img{
 	padding: 0.4rem 1rem 0.4rem 1rem;
 	visibility: visible;
 }
+
 
 .lettre-date{
 	text-transform: uppercase;
@@ -302,8 +306,8 @@ img{
 }
 
 .bouton-plus-article{
-	margin-left: 45%;
-	margin-bottom: 2rem;
+	left: 43%;
+	margin-bottom: 5rem;
 
 }
 
@@ -405,6 +409,7 @@ img{
 .voir-article{
 	margin-top: 1.5rem;
 	margin-left: 2rem;
+	width: 100%;
 }
 
 .voir-lettre{
@@ -443,4 +448,113 @@ img{
 }
 .apropos-left{
 	width: 60%;
+}
+
+/*--footer--*/
+footer{
+    padding: 7.9rem 0;
+    background-color: #121212;
+    color: #fff;
+    position: relative;
+}
+
+.back-to-top{
+    width: 7rem;
+    height: 7rem;
+    background-color: #121212;
+    position:absolute;
+    top: -3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
+
+.back-to-top i{
+    display: block;
+	list-style: none;
+    color: #fff;
+    font-size: 2rem;
+    padding: 2rem 3rem 2rem 2.5rem;
+    animation: up 2s infinite;
+}
+
+.footer-content{
+	color: #C1BEBA;
+	margin-left: 4rem;
+	margin-right: 4rem;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #C1BEBA;
+}
+
+.footer-journal{
+	width: 35%;
+}
+
+.footer-titre{
+	text-transform: uppercase;
+	margin-bottom: 2rem;
+}
+
+.aide{
+	border-bottom: 1px solid #C1BEBA;
+	letter-spacing: 0.2rem;
+	text-decoration: none;
+	color: #C1BEBA;
+	padding-bottom: 1rem;
+}
+
+.nav-aide{
+	padding-bottom: 1.6rem;
+	 list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-plus{
+	margin-top: 3rem;
+
+}
+
+.footer-right{
+	text-transform: uppercase;
+	color: #f9d71c;
+	margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes up {
+    0% {
+       opacity: 0;
+    }
+    50% {
+        opacity: 1;
+     }
+    100% {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
 }
